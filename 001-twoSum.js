@@ -39,7 +39,7 @@ var twoSum1 = function (nums, target) {
         }
     }
     return "No two sum solution";
-}
+};
 console.log(twoSum1([2,7,11,15], 9)); // 时间-O(n)、空间-O(n)
 
 // 其他方法2
@@ -53,5 +53,5 @@ var twoSum2 = function (nums, target) {
         map[nums[i]] = i+1; // key的键值为0时，上面的if会验证不过，+1矫正。return的时候再-1
     }
      return "No two sum solution";
-}
+};
 console.log(twoSum2([2,7,11,15], 9)); // 时间-O(n)、空间-O(n)
